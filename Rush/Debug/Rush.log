@@ -1,4 +1,4 @@
-﻿Построение начато 17.03.2021 17:04:04.
+﻿Построение начато 17.03.2021 17:08:23.
      1>Проект "C:\Users\User\Documents\visual studio 2012\Projects\Rush\Rush\Rush.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Исходный код.cpp"
@@ -10,4 +10,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:01.52
+Затраченное время: 00:00:01.14

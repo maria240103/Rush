@@ -5,7 +5,13 @@ void rush(int, int);
 
 int main()
 {
-    rush(3,5);
+	int heigth, width;
+	cout << "heigth = ";
+	cin >> heigth;
+	cout << "width = ";
+	cin >> width;
+
+    rush(heigth, width);
 	system("pause");
     return 0;
 }
