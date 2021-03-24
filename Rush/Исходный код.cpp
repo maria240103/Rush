@@ -18,6 +18,11 @@ int main()
 
 void rush(int h, int w)
 {
+    if (h == 1 && w == 1)
+    {
+    	cout << "O" << endl;
+    	return;
+    }
     for (int i = 0; i < w; i++)
     {
         for (int j = 0; j < h; j++)
