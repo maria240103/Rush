@@ -28,11 +28,11 @@ void rush(int h, int w)
         for (int j = 0; j < h; j++)
         {
             int sum = i + j;
-            if (i % (w - 1) == 0 && j % (h - 1) == 0)
+            if (i % ((w == 1 ? 2 : w) - 1) == 0 && j % ((h == 1 ? 2 : h) - 1) == 0)
                 cout << "O";
-            else if (i % (w - 1) == 0)
+            else if (i % ((w == 1 ? 2 : w) - 1) == 0)
                 cout << '-';
-            else if (j % (h - 1) == 0)
+            else if (j % ((h == 1 ? 2 : h) - 1) == 0)
                 cout << '|';
             else 
                 cout << ' ';
